@@ -12,14 +12,15 @@
 
 /* -------- COLOR & FONT SETTINGS (edit these first!) -------- */
 :root {
-  --color-bg:      #ffffff;   /* page background        */
-  --color-text:    #1a1a1a;   /* main text color        */
-  --color-accent:  #2563eb;   /* links & buttons        */
-  --color-muted:   #6b7280;   /* softer/secondary text  */
-  --color-card:    #f3f4f6;   /* project card background */
 
   --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
   --max-width: 900px;         /* how wide the content gets */
+  --color-bg:      #1b0234;  /* pastel purple background */
+  --color-text:    #654e09;  /* butter yellow text */
+  --color-accent:  #654e09;  /* buttons & links */
+  --color-muted:   #654e09;  /* secondary text */
+  --color-card:    #c7afdf;  /* project cards */
+
 }
 
 /* -------- BASE RESETS (leave these alone to start) -------- */
