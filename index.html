@@ -1,133 +1,77 @@
 <!DOCTYPE html>
-<!--
-  ============================================================
-  PORTFOLIO STARTER TEMPLATE
-  ============================================================
-  How to use this file:
-  1. Replace anything in [SQUARE BRACKETS] with your own info.
-  2. Save the file.
-  3. Refresh your browser to see changes.
-
-  Tip: Search for "REPLACE" to find every spot you need to edit.
-  ============================================================
--->
 <html lang="en">
 <head>
-  <meta charset="UTF-12" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- REPLACE: This shows in the browser tab -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07110d">
+  <meta name="description" content="LaQuesha Bell's portfolio — project management, business analysis, data, and technology projects.">
   <title>LaQuesha Bell — Portfolio</title>
-
-  <!-- This links your styles.css file to this page -->
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-  <!-- ===================== NAVIGATION ===================== -->
   <nav class="navbar">
-    <!-- REPLACE:LLB -->
-    <a href="#top" class="nav-logo">LaQuesha [Q]</a>
-
-    <!-- These links jump to sections further down the page -->
+    <a class="brand" href="#top"><span class="brand-mark">Q</span><span>LAQUESHA BELL</span></a>
     <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#To Do">To Do</a>
-      <a href="#contact">Contact</a>
+      <a href="#vision">Vision</a><a href="#projects">Selected work</a><a href="#about">About</a><a href="#contact">Contact</a>
     </div>
   </nav>
 
-  <!-- ===================== HERO / INTRO ===================== -->
-     
-  <header id="top" class="hero">
-    <!-- REPLACE: your name -->
-    <h1>Hi, I'm LaQuesha aka Q</h1>
-
-    <!-- REPLACE: one sentence about who you are -->
-    <p class="tagline">Aspiring IT Project Manager, not limiting myself to project manager nor technology.</p>
-
-    <a href="#projects" class="button">See My Work</a>
+  <header class="hero" id="top">
+    <div class="hero-topline"><span>CREATIVE DIRECTION · ANALYSIS · PROJECT MANAGEMENT</span><span>PORTFOLIO / 2026</span></div>
+    <div class="hero-copy">
+      <p class="eyebrow">PROJECT MANAGER · ANALYTICAL THINKER · TECHNOLOGY BUILDER</p>
+      <h1>PORTFOLIO<span class="period">.</span></h1>
+      <p class="hero-subtitle">STRATEGY. INSIGHT. IMPACT.</p>
+      <p class="hero-intro">I connect the details, recognize patterns, and bring people and projects together to make work better.</p>
+      <a class="gold-link" href="#projects">EXPLORE SELECTED WORK <span>↘</span></a>
+    </div>
+    <div class="hero-orbit" aria-hidden="true"><span>Q</span><i>✳</i></div>
+    <div class="hero-bottom"><span>BUSINESS · TECHNOLOGY · PEOPLE</span><span>MILWAUKEE, WISCONSIN</span></div>
   </header>
 
-  <!-- ===================== ABOUT ===================== -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
+  <main>
+    <section class="vision section" id="vision">
+      <div class="section-heading"><p class="eyebrow">THE APPROACH</p><h2>VISION<br>THAT DRIVES<br><em>EXCELLENCE.</em></h2></div>
+      <div class="vision-grid">
+        <article><span class="mini-icon">✳</span><h3>Project leadership</h3><p>Organizing people, priorities, timelines, and deliverables so work keeps moving.</p></article>
+        <article><span class="mini-icon">⌁</span><h3>Business analysis</h3><p>Finding connections, asking better questions, and turning information into action.</p></article>
+        <article><span class="mini-icon">▦</span><h3>Data &amp; technology</h3><p>Using data and practical technology to understand problems and improve experiences.</p></article>
+        <article><span class="mini-icon">✧</span><h3>Quality mindset</h3><p>Reviewing the details, testing what matters, and making the final result stronger.</p></article>
+      </div>
+    </section>
 
-   My degree is in business administration with a concentration in project management.  Additionally, I have spent the last eight working years at a telcommunications company where I held roles in data analytics, supervison, advance tech support in chat, and customer service.  I love math, numbers, patterns, trends, and how matters relate to each other.  When thinking of a future employer, I would love somewhere I can work from home or have most days hybrid.  If I work in a team settings, I want work I'm respomsible for and can take pride in.
-    </p>
+    <section class="section work-section" id="projects">
+      <div class="section-title-row"><div><p class="eyebrow">A SELECTION OF MY WORK</p><h2>Featured work</h2></div><span class="side-note">PROJECTS / 01—06</span></div>
+      <div class="project-grid">
+        <article class="project-card project-feature">
+          <a class="project-visual visual-onetouch" href="onetouch/index.html" aria-label="Open OneTouch demo"><span class="visual-label">PROCESS EXCELLENCE</span><span class="visual-word">One<br>Touch<span>✳</span></span><span class="visual-foot">TICKET INTELLIGENCE · MOCK DATA</span></a>
+          <div class="project-meta"><div><p class="project-type">BUSINESS ANALYSIS · PRODUCT CONCEPT</p><h3>OneTouch</h3><p>A ServiceNow-inspired workspace concept featuring starred tickets, parent-child ticket intelligence, quick look, and attention-ticket highlights. All demo records are fictional.</p></div><a class="arrow-link" href="onetouch/index.html" aria-label="View OneTouch">↗</a></div>
+        </article>
+        <article class="project-card">
+          <a class="project-visual visual-price" href="#contact" aria-label="Price Tag project"><span class="visual-label">SMARTER SHOPPING</span><span class="price-tag">PRICE<br><b>TAG</b></span><span class="visual-foot">PRODUCT DISCOVERY · PRICE COMPARISON</span></a>
+          <div class="project-meta"><div><p class="project-type">PRODUCT CONCEPT · WEB &amp; MOBILE</p><h3>Price Tag</h3><p>A shopping discovery concept for finding products by name, SKU, description, or price-tag image and comparing retailer prices.</p></div><a class="arrow-link" href="#contact" aria-label="Ask about Price Tag">↗</a></div>
+        </article>
+        <article class="project-card">
+          <a class="project-visual visual-beat" href="#contact" aria-label="BeatDrop project"><span class="visual-label">LEARN THROUGH RHYTHM</span><span class="beat-word">BEAT<span>DROP</span></span><span class="visual-foot">TYPING · MUSIC · INTERACTION</span></a>
+          <div class="project-meta"><div><p class="project-type">INTERACTIVE LEARNING · GAME DESIGN</p><h3>BeatDrop</h3><p>A rhythm-based typing game designed to help learners build touch-typing skills through music, falling letters, and progressive keyboard practice.</p></div><a class="arrow-link" href="#contact" aria-label="Ask about BeatDrop">↗</a></div>
+        </article>
+        <article class="project-card compact-project"><div class="project-meta"><div><p class="project-type">IN DEVELOPMENT</p><h3>Future Project 4</h3><p>Current projects in place, check back later for more details.</p></div><span class="project-index">05</span></div></article>
+        <article class="project-card compact-project"><div class="project-meta"><div><p class="project-type">IN DEVELOPMENT</p><h3>Future Project 5</h3><p>More projects and details coming soon.</p></div><span class="project-index">06</span></div></article>
+      </div>
+    </section>
 
-    <h3>Skills</h3>
-    <!-- REPLACE: add or remove skills as a simple list -->
-    <ul class="skills-list">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>SQL</li>
-      <li>Git &amp; GitHub</li>
-      <li>Tech Support</li>
-      <li>Analytics</li>
-    </ul>
-  </section>
+    <section class="about-section section" id="about">
+      <div class="about-lead"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious by nature.<br><em>Focused on what connects.</em></h2></div>
+      <div class="about-copy"><p>My degree is in Business Administration with a concentration in Project Management. I also bring eight years of experience in telecommunications, where I worked across data analytics, supervision, advanced technical support, and customer service.</p><p>I enjoy math, numbers, patterns, trends, and understanding how things relate to one another. Through the i.c.Stars Milwaukee Technology, Business, and Leadership Program, I am building on that experience with hands-on work in technology, business analysis, quality assurance, and project delivery.</p><p>I value clear communication, thoughtful problem-solving, and work I can take responsibility for and be proud of.</p>
+        <div class="skill-tags"><span>Project Management</span><span>Business Analysis</span><span>SQL</span><span>Jira</span><span>GitHub</span><span>HTML &amp; CSS</span><span>JavaScript</span><span>Data Analysis</span></div>
+      </div>
+    </section>
 
-  <!-- ===================== PROJECTS ===================== -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-
-    <div class="project-grid">
-
-      <!-- Who would you save? — copy this whole block to add more projects -->
-    <!-- PROJECT CARD 2 -->
-      <article class="project-card">
-        <h3>Molson Coor's Project</h3>
-        <p> Develop implement and maintain tools we created.  Keep all deliverables and deadlines in JIRA </p>
-        <a href="[https://github.com/yourusername/project]" class="project-link">View Project</a>
-      </article>
-
-      <article class="project-card">
-        <!-- REPLACE: Who would you save? -->
-        <h3>Who would you save?</h3>
-        <!-- We had to decide on who to save as a team and leave everyone else to die -->
-        <p> I learned how to compromise when faced with a life or death situation, and measure risks that comes with each choice you make.</p>
-        <!-- REPLACE: link to the live site or GitHub repo -->
-        <a href="[https://github.com/yourusername/project]" class="project-link">View Project</a>
-      </article>
-
-      <!-- PROJECT CARD 2 -->
-      <article class="project-card">
-        <h3>Future Project 2</h3>
-        <p>Current projects in place, check back later for more details.</p>
-        <a href="[https://github.com/yourusername/project]" class="project-link">View Project</a>
-      </article>
-
-      <!-- PROJECT CARD 3 -->
-      <article class="project-card">
-        <h3>Future Project 2</h3>
-        <p> Check back later for more projects/p>
-        <a href="[https://github.com/yourusername/project]" class="project-link">View Project</a>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- ===================== CONTACT ===================== -->
-  <section id="contact" class="section">
-    <h2>Get In Touch</h2>
-    <p>IUf you're interested in a collaboration feel free to contact me by email, linkedin, or GitHub all linked below. </p>
-
-    <ul class="contact-list">
-      <!-- REPLACE: your real links. Delete any you don't use. -->
-      <li><a href="mailto:lbell@icstars.org">Email</a></li>
-      <li><a href="https://github.com/lbell4Stars/lbell4Stars.github.io">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/queshabell/">LinkedIn</a></li>
-    </ul>
-  </section>
-
-  <!-- ===================== FOOTER ===================== -->
-  <footer class="footer">
-    <!-- REPLACE: your name -->
-    <p>&copy; 2026 LaQuesha. Built with HTML, CSS, and GitHub Pages.</p>
-  </footer>
-
+    <section class="contact-section section" id="contact"><p class="eyebrow">LET'S CONNECT</p><h2>Good work starts<br>with a conversation.</h2><p>Interested in my projects or opportunities to collaborate? I'd love to connect.</p><div class="contact-links"><a href="mailto:lbell@icstars.org">EMAIL ↗</a><a href="https://github.com/lbell4Stars/lbell4Stars.github.io" target="_blank" rel="noopener">GITHUB ↗</a><a href="https://www.linkedin.com/in/queshabell/" target="_blank" rel="noopener">LINKEDIN ↗</a></div></section>
+  </main>
+  <footer><span>LAQUESHA BELL · PORTFOLIO</span><span>© 2026 · BUILT WITH PURPOSE</span></footer>
 </body>
 </html>
